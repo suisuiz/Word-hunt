@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* 清样式 */
+a {
+  text-decoration: none;
+}
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  color: transparent;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+/* 公共样式 */
+.uni-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.uni-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uni-flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uni-flex-jus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uni-flex-ali {
+  display: flex;
+  align-items: center;
+}
+
+.uni-flex-item {
+  flex: 1;
+}
+
+.uni-row {
+  flex-direction: row;
+}
+
+.uni-column {
+  flex-direction: column;
+}
+
+.uni-column-jus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.uni-column-justify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.uni-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.uni-center {
+  text-align: center;
+}
+
+.uni-inline-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
