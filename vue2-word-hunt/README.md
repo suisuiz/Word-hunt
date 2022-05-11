@@ -1,4 +1,4 @@
-# word-hunt
+# vue2-word-hunt
 
 ### 效果图
 
